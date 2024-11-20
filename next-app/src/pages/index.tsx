@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   console.log("object");
+  console.log("process.env.LEEORZ :>> ", process.env.LEEORZ);
   return (
     <div className={styles.container}>
       <Head>
