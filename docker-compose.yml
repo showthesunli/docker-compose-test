@@ -13,6 +13,8 @@ services:
       - 3000
     networks:
       - dokploy-network
+    env_file:
+      - .env
     labels:
       - traefik.enable=true
       - traefik.http.routers.next-app.rule=Host(`next-app.513943440.xyz`)
