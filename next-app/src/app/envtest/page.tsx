@@ -10,5 +10,6 @@ export default function Page({
     "process.env.NEXT_PUBLIC_ENV_VARIABLE :>> ",
     process.env.NEXT_PUBLIC_ENV_VARIABLE
   );
+  console.log(process.env.CLOUDFLARE_API_KEY);
   return <div>page</div>;
 }
